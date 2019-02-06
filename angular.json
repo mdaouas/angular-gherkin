@@ -71,7 +71,8 @@
           "builder": "@angular-builders/jest:run",
           "options": {
             "no-cache": true,
-            "coverage": true
+            "coverage": true,
+            "configPath": "../jest.config.js"
           }
         },
         "lint": {
